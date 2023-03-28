@@ -1,6 +1,6 @@
 const searchProducts = () => {
     //fetch('https://api.escuelajs.co/api/v1/products')
-    fetch('https://fakestoreapi.com/products/1')
+    fetch('https://fakestoreapi.com/products')
         .then(res => res.json())
         .then(data => showDetails(data))
 }
