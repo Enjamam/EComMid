@@ -9,7 +9,7 @@ const showDetails = (products) => {
     const details = document.getElementById('display-card');
     // console.log(products)
 
-    for (let index = 0; index < 6; index++) {
+    for (let index = 0; index < 9; index++) {
         const element = products[index];
         console.log(element)
 
@@ -115,7 +115,7 @@ const total = () => {
 }
 
 const tax = (total) => {
-    const taxadd = (total * 0.15);
+    const taxadd = (total * 0.10);
     // taxadd.toFixed(2);
     // total.toFixed(2)
     document.getElementById('tax').innerText = taxadd.toFixed(2);
@@ -127,7 +127,7 @@ const tax = (total) => {
     dis(intotal);
 }
 const dis = (intotal) => {
-    const discount = (intotal * 0.05);
+    const discount = (intotal * 0.06);
     document.getElementById('dis').innerText = discount.toFixed(2);
     const result = intotal - discount;
     document.getElementById('Fin_total').innerText = result.toFixed(2);
