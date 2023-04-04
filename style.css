@@ -387,6 +387,19 @@ form .btn2 {
     color: #0b8ff4;
 }
 
+/* Social Buttton */
+.socialbtn {
+    text-align: center;
+    font-size: 35px;
+    -webkit-text-fill-color: #fff;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    color:aqua;
+}
+
 /* footer section  starts */
 footer {
     margin-top: 15px;
