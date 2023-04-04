@@ -111,11 +111,11 @@ nav ul li a:hover::after {
     text-decoration: none;
 } */
 
-.carousel-item img {
+/* .carousel-item img {
     padding-left: 150px;
     width: 500px;
     height: 300px;
-}
+} */
 
 .my-card {
     /* position: fixed; */
