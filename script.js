@@ -149,7 +149,7 @@ const DeliveryCharge = (newPrice) => {  //Calculating delivery_charge
     // // else if (newPrice >= 10000) {
     // //     document.getElementById('delivery-charge').innerText = 200;
     // // }
-    if (newPrice <= 5000) {
+    if (newPrice <= 5000 && newPrice!=0) {
         return document.getElementById('delivery-charge').innerText = 100;
     }
     if (newPrice > 5000) {
