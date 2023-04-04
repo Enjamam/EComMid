@@ -182,6 +182,7 @@ nav ul li a:hover::after {
     text-decoration: none;
 }
 
+/* 
 .sixth_part {
     padding-top: 40px;
     padding-left: 150px;
@@ -242,7 +243,7 @@ form .btn2 {
     display: inline-block;
     color: #fff;
     margin-left: 450px;
-}
+} */
 
 /* .footer {
     height: 40px;
@@ -367,6 +368,23 @@ form .btn2 {
     /* font-size: 12px;
     font-weight: 300; */
     box-shadow: 10px rgb(56, 148, 179);
+}
+
+/* --------contact------ */
+#contact {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#contact p {
+    margin-top: 10px;
+}
+
+#contact p i {
+    margin-right: 10px;
+    font-size: 120%;
+    color: #0b8ff4;
 }
 
 /* footer section  starts */
