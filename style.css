@@ -10,6 +10,9 @@ body {
     background: #041f30;
     /* background: linear-gradient(red,blue, green, teal); */
     /* font-family: 'Times New Roman', Times, serif; */
+    /* background: linear-gradient(302deg, #9fb042, #468f98, #53aa57);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite; */
 }
 
 #header {
@@ -348,11 +351,11 @@ form .btn2 {
 .copyright {
     text-align: center;
     width: 100%;
-    background: #032e3f9d;
+    /* background: #032e3f14; */
     padding: 10px 0;
     font-weight: 350;
-    margin-top: 10px;
-    text-shadow: #0cdada;
+    margin-top: 20px;
+    /* text-shadow: #0cdada; */
     color: #fff;
 }
 
@@ -365,3 +368,64 @@ form .btn2 {
     font-weight: 300; */
     box-shadow: 10px rgb(56, 148, 179);
 }
+
+/* footer section  starts */
+footer {
+    margin-top: 15px;
+    background: #021927;
+    color: #fff;
+    font-size: 18px;
+    /* border-radius: 25px; */
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    /* background-image: url("img/nav-logo.gif");
+    background-repeat: repeat-x; */
+}
+
+.footer-title h1 {
+    color: #FDCF45;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.subscribe h1 {
+    font-size: 30px;
+    color: #FDCF45;
+    font-weight: bolder;
+}
+
+.subscribe input {
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #FDCF45;
+    padding-left: 10px;
+    margin-left: -4px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-links a:hover {
+    color: #4bb2da;
+}
+
+.footer-links li {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.footer-top-1 {
+    margin-top: 30px;
+}
+
+/* footer section  ends */
